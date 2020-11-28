@@ -1,7 +1,7 @@
 {
   "name": "NotepadProcess",
   "description": "Blank Process",
-  "main": "Main.xaml",
+  "main": "Calculator.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.9.1-preview]",
     "UiPath.Mail.Activities": "[1.9.1-preview]",
@@ -13,7 +13,7 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "20.8.0.0",
-  "projectVersion": "1.0.0",
+  "projectVersion": "1.0.4",
   "runtimeOptions": {
     "autoDispose": false,
     "isPausable": true,
@@ -23,7 +23,9 @@
       "Private:*",
       "*password*"
     ],
-    "executionType": "Workflow"
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false
   },
   "designOptions": {
     "projectProfile": "Developement",
@@ -32,8 +34,34 @@
       "includeOriginalXaml": false,
       "privateWorkflows": []
     },
-    "fileInfoCollection": []
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": false
   },
   "expressionLanguage": "VisualBasic",
-  "isTemplate": false
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "08011f4a-2ea8-4405-838d-3ed0459463cf",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "SearchKeywordsFromExcel.xaml",
+      "uniqueId": "de5182f3-63fd-4165-976c-648e80455f9d",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Calculator.xaml",
+      "uniqueId": "d57aa18b-1abe-403b-a295-3798677a41af",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {}
 }
