@@ -2599,8 +2599,8 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "NotepadProcess",
-      "projectName": "NotepadProcess",
+      "projectUniqueName": "RPA_Automation",
+      "projectName": "RPA_Automation",
       "projectPath": "C:\\RPA_UIPATH\\UIPath-Project\\.local",
       "packagesPath": "C:\\Users\\deosh\\.nuget\\packages\\",
       "outputPath": "C:\\RPA_UIPATH\\UIPath-Project\\.local"
@@ -2636,28 +2636,5 @@
         }
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU3034",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Microsoft.AspNet.SignalR.Client 2.4.0' from source 'https://www.myget.org/F/workflow/': This package is signed but not by a trusted signer.",
-      "libraryId": "Microsoft.AspNet.SignalR.Client"
-    },
-    {
-      "code": "NU3034",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Microsoft.Identity.Client 4.14.0' from source 'https://api.nuget.org/v3/index.json': This package is signed but not by a trusted signer.",
-      "libraryId": "Microsoft.Identity.Client"
-    },
-    {
-      "code": "NU3034",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Newtonsoft.Json 11.0.1' from source 'https://api.nuget.org/v3/index.json': This package is signed but not by a trusted signer.",
-      "libraryId": "Newtonsoft.Json"
-    }
-  ]
+  }
 }

@@ -1,7 +1,7 @@
 {
-  "name": "NotepadProcess",
-  "description": "Blank Process",
-  "main": "Calculator.xaml",
+  "name": "RPA_Automation",
+  "description": "This process contains various Automation workflows",
+  "main": "GetCurrentIndiaTime.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.9.1-preview]",
     "UiPath.Mail.Activities": "[1.9.1-preview]",
@@ -13,7 +13,7 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "20.8.0.0",
-  "projectVersion": "1.0.4",
+  "projectVersion": "1.0.6",
   "runtimeOptions": {
     "autoDispose": false,
     "isPausable": true,
@@ -57,6 +57,12 @@
     {
       "filePath": "Calculator.xaml",
       "uniqueId": "d57aa18b-1abe-403b-a295-3798677a41af",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "GetCurrentIndiaTime.xaml",
+      "uniqueId": "0a9f3776-be33-4dad-8b4a-1730207b9c13",
       "input": [],
       "output": []
     }
