@@ -2601,9 +2601,9 @@
     "restore": {
       "projectUniqueName": "RPA_Automation",
       "projectName": "RPA_Automation",
-      "projectPath": "C:\\RPA_UIPATH\\UIPath-Project\\.local",
+      "projectPath": "C:\\RPA_UI_PATH\\.local",
       "packagesPath": "C:\\Users\\deosh\\.nuget\\packages\\",
-      "outputPath": "C:\\RPA_UIPATH\\UIPath-Project\\.local"
+      "outputPath": "C:\\RPA_UI_PATH\\.local"
     },
     "frameworks": {
       "net461": {
