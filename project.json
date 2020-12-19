@@ -1,7 +1,7 @@
 {
   "name": "RPA_Automation",
   "description": "This process contains various Automation workflows",
-  "main": "GetCurrentIndiaTime.xaml",
+  "main": "GetFileNamesFromAFolder.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.9.1-preview]",
     "UiPath.Mail.Activities": "[1.9.1-preview]",
@@ -13,7 +13,7 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "20.8.0.0",
-  "projectVersion": "1.0.6",
+  "projectVersion": "1.0.8",
   "runtimeOptions": {
     "autoDispose": false,
     "isPausable": true,
@@ -63,6 +63,12 @@
     {
       "filePath": "GetCurrentIndiaTime.xaml",
       "uniqueId": "0a9f3776-be33-4dad-8b4a-1730207b9c13",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "GetFileNamesFromAFolder.xaml",
+      "uniqueId": "bd155a40-06b7-477b-8dc5-b3246b8c3290",
       "input": [],
       "output": []
     }
