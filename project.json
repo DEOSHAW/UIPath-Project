@@ -1,7 +1,7 @@
 {
   "name": "RPA_Automation",
   "description": "This process contains various Automation workflows",
-  "main": "GetFileNamesFromAFolder.xaml",
+  "main": "getNameAndPrint.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.9.1-preview]",
     "UiPath.Mail.Activities": "[1.9.1-preview]",
@@ -13,7 +13,7 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "20.8.0.0",
-  "projectVersion": "1.0.8",
+  "projectVersion": "1.0.11",
   "runtimeOptions": {
     "autoDispose": false,
     "isPausable": true,
@@ -69,6 +69,24 @@
     {
       "filePath": "GetFileNamesFromAFolder.xaml",
       "uniqueId": "bd155a40-06b7-477b-8dc5-b3246b8c3290",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "AddTwoNumbers.xaml",
+      "uniqueId": "1dab202d-7403-4c35-8fc7-3b3e8d0fa13c",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "GoogleAutomation.xaml",
+      "uniqueId": "ebce7619-85b8-44e3-8b85-04c920faf96b",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "getNameAndPrint.xaml",
+      "uniqueId": "062e0c35-e061-4f58-bc37-a5e80d936e76",
       "input": [],
       "output": []
     }
