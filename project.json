@@ -1,7 +1,7 @@
 {
   "name": "RPA_Automation",
   "description": "This process contains various Automation workflows",
-  "main": "getNameAndPrint.xaml",
+  "main": "CheckVotingEligibility.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.9.1-preview]",
     "UiPath.Mail.Activities": "[1.9.1-preview]",
@@ -87,6 +87,18 @@
     {
       "filePath": "getNameAndPrint.xaml",
       "uniqueId": "062e0c35-e061-4f58-bc37-a5e80d936e76",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "GuessNumber.xaml",
+      "uniqueId": "665a7586-f2cd-411a-a0e6-3fe125e2f5b1",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "CheckVotingEligibility.xaml",
+      "uniqueId": "89207584-66fa-46e6-975a-8a23de75c924",
       "input": [],
       "output": []
     }
