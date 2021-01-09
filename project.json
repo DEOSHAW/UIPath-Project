@@ -1,7 +1,7 @@
 {
   "name": "RPA_Automation",
   "description": "This process contains various Automation workflows",
-  "main": "CheckVotingEligibility.xaml",
+  "main": "ReadPDF_DataScraping.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.9.1-preview]",
     "UiPath.Mail.Activities": "[1.9.1-preview]",
@@ -13,7 +13,7 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "20.8.0.0",
-  "projectVersion": "1.0.11",
+  "projectVersion": "1.0.12",
   "runtimeOptions": {
     "autoDispose": false,
     "isPausable": true,
@@ -99,6 +99,12 @@
     {
       "filePath": "CheckVotingEligibility.xaml",
       "uniqueId": "89207584-66fa-46e6-975a-8a23de75c924",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "ReadPDF_DataScraping.xaml",
+      "uniqueId": "94acdd04-4be3-4300-9bbe-3db299f19216",
       "input": [],
       "output": []
     }
