@@ -1,7 +1,7 @@
 {
   "name": "RPA_Automation",
   "description": "This process contains various Automation workflows",
-  "main": "ReadPDF_DataScraping.xaml",
+  "main": "DataTableWorkflow.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.9.1-preview]",
     "UiPath.Mail.Activities": "[1.9.1-preview]",
@@ -105,6 +105,12 @@
     {
       "filePath": "ReadPDF_DataScraping.xaml",
       "uniqueId": "94acdd04-4be3-4300-9bbe-3db299f19216",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "DataTableWorkflow.xaml",
+      "uniqueId": "f196d965-a2d5-494b-9d74-29d5a602626d",
       "input": [],
       "output": []
     }
