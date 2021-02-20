@@ -1,7 +1,7 @@
 {
   "name": "RPA_Automation",
   "description": "This process contains various Automation workflows",
-  "main": "ScrapingWorkflow.xaml",
+  "main": "ExtractDataFromTable.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.9.1-preview]",
     "UiPath.Mail.Activities": "[1.9.1-preview]",
@@ -13,7 +13,7 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "20.8.0.0",
-  "projectVersion": "1.0.13",
+  "projectVersion": "1.0.20",
   "runtimeOptions": {
     "autoDispose": false,
     "isPausable": true,
@@ -117,6 +117,12 @@
     {
       "filePath": "ScrapingWorkflow.xaml",
       "uniqueId": "93e69bfa-1a16-46b7-a228-b1f011459059",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "ExtractDataFromTable.xaml",
+      "uniqueId": "16e06be4-c3ac-4c37-905b-252dc4fad11d",
       "input": [],
       "output": []
     }
