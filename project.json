@@ -1,7 +1,7 @@
 {
   "name": "RPA_Automation",
   "description": "This process contains various Automation workflows",
-  "main": "ExtractDataFromTable.xaml",
+  "main": "WindowSwitchingUIAutomation.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.9.1-preview]",
     "UiPath.Mail.Activities": "[1.9.1-preview]",
@@ -13,7 +13,7 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "20.8.0.0",
-  "projectVersion": "1.0.20",
+  "projectVersion": "1.0.22",
   "runtimeOptions": {
     "autoDispose": false,
     "isPausable": true,
@@ -125,9 +125,16 @@
       "uniqueId": "16e06be4-c3ac-4c37-905b-252dc4fad11d",
       "input": [],
       "output": []
+    },
+    {
+      "filePath": "WindowSwitchingUIAutomation.xaml",
+      "uniqueId": "659434e9-0253-46ac-8ca3-995a9f8ff42c",
+      "input": [],
+      "output": []
     }
   ],
   "isTemplate": false,
   "templateProjectData": {},
-  "publishData": {}
+  "publishData": {},
+  "targetFramework": "Legacy"
 }
